@@ -10,6 +10,6 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7550184093:AAEwTZ-19Vgl6ax7VfpS0Tawe43LmTu0glQ"
 OWNER_ID = int(getenv("OWNER_ID", "7753899951"))
 
 MONGO_DB_URI = "mongodb+srv://demo38174_db_user:myhTrNGcYm5zpQus@cluster0.dboqmtf.mongodb.net/?appName=Cluster0"
-MUST_JOIN = getenv("MUST_JOIN", main_channel_pr)
+MUST_JOIN = getenv("MUST_JOIN", None)
 
 
